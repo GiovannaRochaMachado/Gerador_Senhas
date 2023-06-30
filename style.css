@@ -1,0 +1,114 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#senha-container {
+    max-width: 560px;
+    margin: 150px auto;
+    padding: 40px;
+    background-color: #3ca1c9;
+    border-radius: 30px;
+    box-shadow: rgba(197, 195, 195, 0.831) 1.95px 1.95px 2.6px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*border: 2px solid #0b4553;
+    border-style: dotted; */
+    border-radius: 15px;
+    font-size: 42px;
+}
+
+label {
+    font-size: 22px;
+    display: block;
+    margin-bottom: 10px;
+    color: #061e37;
+    font-weight: bold;
+    text-align: left;
+}
+
+label#apenas-letras-numeros-label{
+    text-align: left;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+input {
+    font-size: 22px;
+    padding: 8px 25px 12px 15px;
+    text-align: left;
+    width: 420px;
+    border-radius: 30px;
+    border: none;
+}
+
+input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+input[type=number] {
+    align-items: left;
+    text-align: left;
+    width: 500px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    all: unset; 
+    min-width: 20px;
+    min-height: 43px;
+    margin: 0px;
+    padding: 0px;
+    background-image: 
+    linear-gradient(to top, transparent 0px, transparent 16px, #fff 16px, #fff 26px, transparent 26px, transparent 35px, #000 35px,#000 36px,transparent 36px, transparent 40px),
+    linear-gradient(to right, transparent 0px, transparent 10px, #000 10px, #000 11px, transparent 11px, transparent 21px);
+    transform: rotate(90deg) scale(0.9, 0.9);
+    cursor:pointer;
+}
+
+input[type=checkbox] {
+    text-align: left;
+    margin-left: 0px;
+    width: fit-content;
+}
+input[type=checkbox]:checked {
+    text-align: left;
+    margin-left: 0px;
+    border: none;
+    width:fit-content;
+    height: auto;
+    outline: 1px solid rgb(255, 255, 255);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #bad9e8;
+    color: #000000;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7eb9d3;
+}
+
+img {
+    max-width:20px;
+    max-height:20px;
+}
+
+p {
+    margin-top: 20px;
+    color: #227093;
+}
