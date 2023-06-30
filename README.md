@@ -1,4 +1,4 @@
-# Gerador de Senhas Complexas
+# 🔐 Gerador de Senhas Complexas
 - Gerador de senhas complexas com caracteres alfanuméricos e não alfanuméricos
 - Desenvolvido em projeto para disciplina de Desenvolvimento Web na Fatec de Mauá
 - Definição da quantidade de caracteres no tamanho da senha pelo usuário
